@@ -9,6 +9,7 @@ Este projeto foi desenvolvido no [Bootcamp 8 da Rocketseat](https://rocketseat.c
 - [NodeJS](https://nodejs.org/en/)
 - [Express](https://www.npmjs.com/package/express)
 - [JWT](https://github.com/auth0/node-jsonwebtoken)
+- [Yup](https://github.com/jquense/yup)
 
 ## :information_source: Como utilizar
 
