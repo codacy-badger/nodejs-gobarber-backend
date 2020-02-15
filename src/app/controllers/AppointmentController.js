@@ -42,6 +42,14 @@ class AppointmentController {
       where: { provider_id, canceled_at: null, date: hourStart },
     });
 
+    // Verifica se o usuário que está agendando é o mesmo do prestador de serviços
+    const user = await User.findByPk(req.userId);
+    if (user.id === provider_id) {
+      return res
+        .status(401)
+        .json({ error: "You can't create an appointment with yourself" });
+    }
+
     if (checkAvailability) {
       return res
         .status(400)
@@ -55,7 +63,7 @@ class AppointmentController {
     });
 
     // Notificar prestador de serviço
-    const user = await User.findByPk(req.userId);
+
     const formattedDate = format(
       hourStart,
       "'dia' dd 'de' MMMM', às' H:mm'h'",
