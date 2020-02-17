@@ -13,6 +13,8 @@ Este projeto foi desenvolvido no [Bootcamp 8 da Rocketseat](https://rocketseat.c
 - [Nodemailer](https://github.com/nodemailer/nodemailer)
 - [Redis](https://redis.io/)
 - [Bee-queue](https://github.com/bee-queue/bee-queue)
+- [Sentry](https://sentry.io)
+- [Youch](https://www.npmjs.com/package/youch)
 
 ## :information_source: Como utilizar
 
