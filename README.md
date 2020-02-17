@@ -10,6 +10,9 @@ Este projeto foi desenvolvido no [Bootcamp 8 da Rocketseat](https://rocketseat.c
 - [Express](https://www.npmjs.com/package/express)
 - [JWT](https://github.com/auth0/node-jsonwebtoken)
 - [Yup](https://github.com/jquense/yup)
+- [Nodemailer](https://github.com/nodemailer/nodemailer)
+- [Redis](https://redis.io/)
+- [Bee-queue](https://github.com/bee-queue/bee-queue)
 
 ## :information_source: Como utilizar
 
@@ -25,5 +28,6 @@ $ cd nodejs-gobarber-backend
 # Inicie o aplicativo
 $ yarn dev
 ```
+NOTA: É importante ter rodando no seu computador os seguintes bancos de dados: PostgreSQL, MongoDB e Redis
 
 Desenvolvido por Raul Neto. [Entre em contato](https://www.linkedin.com/in/raul-neto-777bb988/)
