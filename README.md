@@ -6,15 +6,15 @@
 
 Este projeto foi desenvolvido no [Bootcamp 8 da Rocketseat](https://rocketseat.com.br/bootcamp) com as seguintes tecnologias:
 
-- [NodeJS](https://nodejs.org/en/)
-- [Express](https://www.npmjs.com/package/express)
-- [JWT](https://github.com/auth0/node-jsonwebtoken)
-- [Yup](https://github.com/jquense/yup)
-- [Nodemailer](https://github.com/nodemailer/nodemailer)
-- [Redis](https://redis.io/)
-- [Bee-queue](https://github.com/bee-queue/bee-queue)
-- [Sentry](https://sentry.io)
-- [Youch](https://www.npmjs.com/package/youch)
+  - [NodeJS](https://nodejs.org/en/)
+  - [Express](https://www.npmjs.com/package/express)
+  - [JWT](https://github.com/auth0/node-jsonwebtoken)
+  - [Yup](https://github.com/jquense/yup)
+  - [Nodemailer](https://github.com/nodemailer/nodemailer)
+  - [Redis](https://redis.io/)
+  - [Bee-queue](https://github.com/bee-queue/bee-queue)
+  - [Sentry](https://sentry.io)
+  - [Youch](https://www.npmjs.com/package/youch)
 
 ## :information_source: Como utilizar
 
